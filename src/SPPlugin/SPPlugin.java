@@ -64,6 +64,10 @@ public class SPPlugin
       player.sendMessage(ChatColor.GREEN + getConfig().getString("donateinfo"));
       player.sendMessage(ChatColor.GREEN + getConfig().getString("donate"));
     }
+else if (commandLabel.equalsIgnoreCase("MOTD"))
+    {
+      player.sendMessage(ChatColor.GREEN + "[MOTD]: " + ChatColor.GOLD + getConfig().getString("MOTD"));
+    }
     return false;
   }
 }
