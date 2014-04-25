@@ -1,0 +1,12 @@
+main: SPPlugin.SPPlugin
+version: 3.3
+description: Youtube
+commands:
+  Server:
+    description: Send The Player A Message
+  news:
+    description: Send The Player A Message
+  staff:
+    description: Send The Player A Message
+  donate:
+    description: Send The Player A Message

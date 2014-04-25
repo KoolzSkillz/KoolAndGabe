@@ -1,0 +1,19 @@
+#Edit these for in game commands! -Coded by KoolzSkillz and Gabrielmaennl5
+
+#The Server News /news
+news: You Edit
+# the server info /server
+server: You Edit
+
+mods: You Edit
+smods: You Edit
+admins: You Edit
+coowners: You Edit
+owner: You Edit
+
+#the server name that shows up when you type /server
+servername: YOu Edit
+# Is the info on your server that pops up top when you do /donate
+donateinfo: You Edit
+#The Package infomation under the donateinfo
+donate:
