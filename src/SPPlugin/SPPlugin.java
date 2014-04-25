@@ -64,9 +64,16 @@ public class SPPlugin
       player.sendMessage(ChatColor.GREEN + getConfig().getString("donateinfo"));
       player.sendMessage(ChatColor.GREEN + getConfig().getString("donate"));
     }
-else if (commandLabel.equalsIgnoreCase("MOTD"))
+    else if (commandLabel.equalsIgnoreCase("MOTD"))
     {
       player.sendMessage(ChatColor.GREEN + "[MOTD]: " + ChatColor.GOLD + getConfig().getString("MOTD"));
+    }
+    else if (commandLabel.equalsIgnoreCase("vote"))
+    {
+      player.sendMessage(ChatColor.RED + "[Voting Links]:
+      player.sendMessage(ChatColor.GREEN + getConfig().getString("link1"));
+      player.sendMessage(ChatColor.GREEN + getConfig().getString("link2"));
+      player.sendMessage(ChatColor.GREEN + getConfig().getString("link3"));
     }
     return false;
   }
