@@ -14,9 +14,17 @@ owner: You Edit
 
 #the server name that shows up when you type /server
 servername: You Edit
+
 # Is the info on your server that pops up top when you do /donate
 donateinfo: You Edit
+
 #The Package infomation under the donateinfo
 donate:
+
 #Message of the day
 MOTD: You edit in server config 
+
+# The voting links just do a dot it their are none
+link1: You edit
+link2: You Edit
+link3: You edit
