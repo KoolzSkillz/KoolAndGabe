@@ -5,6 +5,7 @@ news: You Edit
 # the server info /server
 server: You Edit
 
+# The Stuff that pops up when you type /staff
 mods: You Edit
 smods: You Edit
 admins: You Edit
@@ -12,8 +13,10 @@ coowners: You Edit
 owner: You Edit
 
 #the server name that shows up when you type /server
-servername: YOu Edit
+servername: You Edit
 # Is the info on your server that pops up top when you do /donate
 donateinfo: You Edit
 #The Package infomation under the donateinfo
 donate:
+#Message of the day
+MOTD: You edit in server config 
